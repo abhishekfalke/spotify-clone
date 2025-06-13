@@ -15,6 +15,28 @@ body{
     height: 60px;
     width: 100%;
 }
+@media (max-width: 1190px) {
+    .home-button5{
+        display: none;
+    }
+    .home-button6{
+        display: none;
+    }
+    .home-button7{
+        display: none;
+    }
+    .home-button8{
+        display: none;
+    }
+    .home-button9{
+        display: none;
+    }
+}
+@media (max-width: 713px) {
+    .input-box{
+        display: none;
+    }
+}
 .sidemenu{
     display: flex;
     flex-direction: column;   
@@ -316,6 +338,14 @@ a:hover{
     position: relative;
     top: 85px;
 }
+@media (max-width: 892px) {
+    .hz{
+        flex: 1;
+    }
+    .hz strong{
+        overflow: hidden;
+    }
+}
 .hz{
     left: 100px;
     height: 60px;
@@ -332,7 +362,6 @@ a:hover{
 .hz img{
     width: 51px;
     height: 60px;
-    /* margin-top: -11px; */
     border-radius: 0px;
     object-fit: cover;
     border-radius: 5px 0px 0px 5px;
@@ -343,6 +372,7 @@ a:hover{
     position: relative;
     text-wrap: initial;
     padding: 7px;
+    flex: 1;
 }
 .hidden-btn{
     position: relative;
@@ -352,7 +382,7 @@ a:hover{
     height: 35px;
     border-radius: 50%;
     border: 0px;
-    background-color: rgb(17, 170, 17);
+    background-color: rgb(17, 170, 37);
     opacity: 0;
 }
 .hidden-btn1{
